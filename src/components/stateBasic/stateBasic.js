@@ -19,10 +19,24 @@ class StateBasic extends Component {
           Add 1
         </button>
 
+        <button 
+          type="button"
+          onClick={() => this._subtractOne()}
+          >
+          subtract 1
+        </button>        
+
         <div className="break"></div>
       </div>
     );
   }
+
+  _subtractOne(){
+  	this.setState({ counter: this.state.counter - 1 })
+  }
+
+
+
 }
 
 
