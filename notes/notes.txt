@@ -1,0 +1,18 @@
+//Life cycle methods
+
+1-	componentWillMount(){
+		//Do this stuffbefore you render
+	}
+
+2-	render()
+
+3-	componentDidMount(){
+		//use this to continually look for updates 
+	}
+
+4-	componentWillUnmount(){
+		//use this to kill the continual updates
+	}
+
+
+	
