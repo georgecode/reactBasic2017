@@ -8,6 +8,7 @@ const Hello = () =>{
 			<ul>
 				{greetings.map(greet=><li>{greet}</li>)}
 			</ul>
+			<div className="break"></div>
 		</div>
 		)
 }

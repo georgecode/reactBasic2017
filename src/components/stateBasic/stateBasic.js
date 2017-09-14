@@ -3,7 +3,11 @@ import React, { Component } from 'react';
 class StateBasic extends Component {
 	render(){
 		return(
-			<h1>Author: {this.props.author}</h1>)
+			<div>
+			<h1>State basic</h1>
+			<div className="break"></div>
+			</div>
+			)
 	}
 }
 

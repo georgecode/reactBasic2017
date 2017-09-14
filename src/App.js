@@ -4,14 +4,16 @@ import './App.css';
 
 //hello stuff
 import Hello from './components/index';
+import PropsBasic from './components/propsBasic/propsBasic';
 import StateBasic from './components/stateBasic/stateBasic';
 
 class App extends Component {
   render() {
     return (
           <div>
-            <Hello author="george" body="Stuff stuff stuff testing react"/>
-            <StateBasic author="george" body="Stuff stuff stuff testing react"/>
+            <Hello />
+            <PropsBasic author="george" comment="Learning react is actually starting to be fun"/>
+            <StateBasic />
           </div>
 
     );
