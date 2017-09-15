@@ -6,6 +6,7 @@ import './App.css';
 import Hello from './components/index';
 import PropsBasic from './components/propsBasic/propsBasic';
 import StateBasic from './components/stateBasic/stateBasic';
+import FetchBasic from './components/fetchBasic/fetchBasic';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
             <Hello />
             <PropsBasic author="george" comment="Learning react is actually starting to be fun"/>
             <StateBasic />
+            <FetchBasic />
           </div>
 
     );
